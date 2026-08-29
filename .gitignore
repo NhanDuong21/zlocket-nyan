@@ -1,1 +1,8 @@
 /token.json
+/.env
+/.venv/
+/build/
+/dist/
+__pycache__/
+*.py[cod]
+.coverage

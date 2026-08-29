@@ -1,15 +1,11 @@
-Yêu cầu thư viện: pip install requests tqdm colorama pystyle urllib3
+HUONG DAN CHAY CHE DO MO PHONG OFFLINE
 
-Mở File start.bat để mở tool nhanh (PC):
+1. Mo PowerShell tai thu muc du an.
+2. Chay: python locket.py --dry-run
+3. Chay test: python -m unittest discover -s tests -v
 
-python zLocket-Tool.py
+Vi du mo phong 51 request trong bo nho, khong goi mang:
+python locket.py --dry-run --accounts 1 --repeat 51 --threads 1
 
-python3 zLocket-Tool.py
-
-Yêu cầu phiên bản: Python 3.12
-
-Website: api.thanhdieu.com
-
-Không nên treo tool, vì proxy xoay sẽ không thể tái tạo lại, nếu thấy spam chậm dần đi thì hãy đóng tool mở lại
-
-Spam nhanh hay chậm tuỳ vào proxy khoẻ (timeout, ping thấp), nếu bạn có proxy riêng hãy dán vào file proxy.txt
+Ban hien tai chi ho tro environment "mock". Khong can token.json, proxy.txt
+hoac dich vu token ben thu ba.
