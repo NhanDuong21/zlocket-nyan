@@ -9,7 +9,7 @@ It does **not** connect to Locket, Firebase, Thanh Dieu's token service, proxy
 providers, or any other external host.
 
 ## Requirements
-
+    
 - Python 3.12 or newer
 - No third-party runtime dependencies
 
