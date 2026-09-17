@@ -11,7 +11,7 @@
 `zlocket-nyan` là phiên bản đang được refactor từ source zLocket cũ. Mục tiêu
 hiện tại là xây dựng lại cấu trúc chương trình rõ ràng, có kiểm thử và có thể
 tích hợp với một môi trường staging được cấp quyền trong tương lai.
-
+         
 Source cũ phụ thuộc vào một dịch vụ cấp token bên thứ ba đã ngừng hoạt động,
 sử dụng cấu hình API lỗi thời và thực hiện các tác vụ mạng không giới hạn. Do
 đó, phiên bản cũ không còn hoạt động đúng như trước.
