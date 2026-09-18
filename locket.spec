@@ -1,7 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 
-a = Analysis(
+a = Analysis(      
     ['locket.py'],
     pathex=[],
     binaries=[],
