@@ -20,7 +20,7 @@ sử dụng cấu hình API lỗi thời và thực hiện các tác vụ mạng
 
 Những phần đã hoàn thành:
 
-- Tách riêng `AppCheckProvider`, `AuthAdapter` và `LocketApiAdapter`.
+- Tách riêng `AppCheckProvider`, `AuthAdapter` và `LocketApiAdapter`.         
 - Xây dựng workflow có giới hạn số tài khoản, worker và hành động.
 - Thêm chế độ `--dry-run` chạy hoàn toàn offline.
 - Thêm mock cho App Check, đăng nhập, tạo hồ sơ và gửi lời mời.
